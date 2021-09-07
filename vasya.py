@@ -19,3 +19,7 @@ def tickets(people: int) -> str:
             change = p % 25
     return onhand
 
+t = [25, 25, 50]
+print(tickets(t))
+
+
